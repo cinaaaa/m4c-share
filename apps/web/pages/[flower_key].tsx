@@ -10,9 +10,17 @@ function Page({ image_signed_url }) {
             <Head>
                 <title>Share Flower</title>
                 <meta name="description" content="Sharing flower" key="desc" />
-                <meta property="og:title" content="Social Title for Cool Page" />
-                <meta property="og:description" content="And a social description for our cool page" />
+
+                {/* Open Graph meta tags */}
+                <meta property="og:title" content="My flower on m4c" />
+                <meta property="og:description" content="Checkout my flower on map4citizens!" />
                 <meta property="og:image" content={image_signed_url} />
+
+                {/* Twitter Card meta tags */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="My flower on m4c" />
+                <meta name="twitter:description" content="Checkout my flower on map4citizens!" />
+                <meta name="twitter:image" content={image_signed_url} />
             </Head>
 
             {/* Display the image */}
