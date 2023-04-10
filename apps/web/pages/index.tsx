@@ -1,10 +1,5 @@
-import { Button } from "ui";
-
-export default function Web() {
+export default function Share() {
   return (
-    <div>
-      <h1>Web</h1>
-      <Button />
-    </div>
+    <h1>Sharing Flower Application!</h1>
   );
 }
