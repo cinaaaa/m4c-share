@@ -1,3 +1,12 @@
 module.exports = {
-  reactStrictMode: true
+  reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: 'https://citizens.plan4better.de',
+        permanent: true,
+      },
+    ]
+  },
 };
