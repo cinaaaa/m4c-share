@@ -37,7 +37,7 @@ export async function getServerSideProps(context) {
 
     try {
         // Send a POST request to the specified API endpoint with the flower_key in the request body
-        const response = await axios.post("https://auys8w4hm1.execute-api.eu-central-1.amazonaws.com/Prod/", {
+        const response = await axios.post("https://dfvz2uuq63.execute-api.eu-central-1.amazonaws.com/Prod/", {
             path: "/get-signed-url",
             key: flower_key,
         });
